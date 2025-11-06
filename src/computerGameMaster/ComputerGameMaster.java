@@ -21,10 +21,6 @@ public class ComputerGameMaster {
 		number = (int) ((Math.random() * (bounds[1] - bounds[0])) + bounds[0]);
 	}
 	
-	public boolean guess(int guess) {
-		return (guess == number);
-	}
-
 	/**
 	 * @param scnr Scanner object to use for input.
 	 * Performs a game on the terminal when called.
