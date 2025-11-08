@@ -49,7 +49,7 @@ public class UserGameMaster {
 				attempts--;
 			}
 			if (min > max) { //It will not let you go under 1 or over 100 
-				System.out.println("It seems there's an inxonsistency in your answer. Let's try again.");
+				System.out.println("It seems there's an inconsistency in your answer. Let's try again.");
 				min = 1;
 				max = 100;
 				attempts = 0;
