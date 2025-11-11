@@ -5,6 +5,7 @@ package terminalAppInterface;
 
 import computerGameMaster.ComputerGameMaster;
 import java.util.Scanner;
+import userGameMaster.UserGameMaster;
 
 /**
  * 
@@ -53,6 +54,8 @@ public class TerminalInterface {
 				ComputerGameMaster comGameMaster = new ComputerGameMaster();
 				comGameMaster.terminalGame(scnr);
 				break;
+			case 2:
+				UserGameMaster.main(new String[0]);
 		}
 		return true;
 	}
