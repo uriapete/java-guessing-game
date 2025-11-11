@@ -3,6 +3,8 @@
  */
 package terminalAppInterface;
 
+import java.util.Scanner;
+
 /**
  * 
  */
@@ -39,9 +41,10 @@ public class TerminalInterface {
 	/**
 	 * Calls the associated terminal method for the selected option.
 	 * @param optionIdx The integer index of the desired game option (-1 refers to quit)
+	 * @param scnr Scanner for the game to use.
 	 * @return An boolean that signals whether or not to continue the program loop (false -> quit, true -> continue)
 	 */
-	private static boolean callMenuOption(int optionIdx){
+	private static boolean callMenuOption(int optionIdx, Scanner scnr){
 		switch (optionIdx) {
 			case -1:
 				return false;
