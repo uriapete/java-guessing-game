@@ -14,6 +14,14 @@ public class TerminalInterface {
 		"I pick a number",
 		"You pick a number"
 	};
+
+	private static void printMenuOptions(){
+		for (int i = 0; i < menuOptions.length; i++) {
+			String option = menuOptions[i];
+			System.out.print(i+1);
+			System.out.println(" ) "+ option);
+		}
+	}
 	
 	/**
 	 * @param args
