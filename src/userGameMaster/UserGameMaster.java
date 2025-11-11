@@ -58,7 +58,6 @@ public class UserGameMaster {
 			System.out.println("Oh no, I coundn't guess your number in 7 attempts.");
 			
 		}
-		scanner.close();
 
 	}
 
