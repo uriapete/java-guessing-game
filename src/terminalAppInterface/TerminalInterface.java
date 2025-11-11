@@ -33,6 +33,11 @@ public class TerminalInterface {
 		}
 	}
 
+	/**
+	 * Calls the associated terminal method for the selected option.
+	 * @param optionIdx The integer index of the desired game option.
+	 * @return An boolean that signals whether or not to continue the program loop (false -> quit, true -> continue)
+	 */
 	private static boolean callMenuOption(int optionIdx){
 		switch (optionIdx) {
 			case 1:
