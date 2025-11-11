@@ -50,8 +50,8 @@ public class TerminalInterface {
 			case -1:
 				return false;
 			case 1:
-				ComputerGameMaster gameMaster = new ComputerGameMaster();
-				gameMaster.terminalGame(scnr);
+				ComputerGameMaster comGameMaster = new ComputerGameMaster();
+				comGameMaster.terminalGame(scnr);
 				break;
 		}
 		return true;
