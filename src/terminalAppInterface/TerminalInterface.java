@@ -70,12 +70,41 @@ public class TerminalInterface {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner scnr = new Scanner(System.in);
-		printMenuOptions();
-		boolean result = callMenuOption(scnr.nextInt(), scnr);
-		System.out.println();
-		System.out.println(result);
+
+		// boolean variable that represents if to keep the program looping
+		boolean runAgain = true;
+
+		// guarantee run at least once
+		// for each program loop...
+		do { 
+			// print game menu
+			System.out.println("Select a game option:");
+			printMenuOptions();
+			System.out.println();
+
+			// collect input
+			String rawInput = scnr.next();
+
+			int optionIdx;
+
+			// optionIdx <- -1 IF input is "quit"
+			// else, process it as int
+			try {
+				optionIdx = (rawInput.equals("q")) ? -1 : Integer.parseInt(rawInput);
+			} catch (Exception e) {
+				System.out.println("Invalid option or something has gone wrong. Please try again.");
+				continue;
+			}
+
+			runAgain = callMenuOption(optionIdx, scnr);
+
+			if (runAgain) {
+				System.out.println("Want to go again?");
+			}
+		} while (runAgain);
+		
+		System.out.println("Goodbye.");
 	}
 
 }
