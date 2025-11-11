@@ -62,7 +62,11 @@ public class TerminalInterface {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner scnr = new Scanner(System.in);
 		printMenuOptions();
+		boolean result = callMenuOption(scnr.nextInt(), scnr);
+		System.out.println();
+		System.out.println(result);
 	}
 
 }
