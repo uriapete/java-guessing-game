@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class UserGameMaster {
 
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+	public static void terminalGame(Scanner scanner) {
 		int min = 1;
 		int max = 100;
 		int attempts = 0;
