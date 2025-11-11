@@ -15,11 +15,21 @@ public class TerminalInterface {
 		"You pick a number"
 	};
 
+	/*
+	 * Prints the menu options for the terminal app.
+	 */
 	private static void printMenuOptions(){
+		// For each option in field "menuOptions"
 		for (int i = 0; i < menuOptions.length; i++) {
 			String option = menuOptions[i];
+
+			// Print the index
 			System.out.print(i+1);
+
+			// print the option itself
 			System.out.println(" ) "+ option);
+
+			// "1 ) Play on this option"
 		}
 	}
 	
