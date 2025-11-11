@@ -48,8 +48,6 @@ public class TerminalInterface {
 			case 1:
 				
 				break;
-			default:
-				throw new AssertionError();
 		}
 		return true;
 	}
