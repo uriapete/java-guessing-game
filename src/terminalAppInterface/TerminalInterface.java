@@ -32,6 +32,10 @@ public class TerminalInterface {
 			// "1 ) Play on this option"
 		}
 	}
+
+	private static boolean callMenuOption(){
+		return false;
+	}
 	
 	/**
 	 * @param args
