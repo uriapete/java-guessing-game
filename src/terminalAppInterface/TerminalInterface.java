@@ -31,6 +31,9 @@ public class TerminalInterface {
 
 			// "1 ) Play on this option"
 		}
+
+		// Print quit option
+		System.out.println("q ) Quit");
 	}
 
 	/**
