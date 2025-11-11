@@ -55,7 +55,7 @@ public class TerminalInterface {
 				comGameMaster.terminalGame(scnr);
 				break;
 			case 2:
-				UserGameMaster.main(new String[0]);
+				UserGameMaster.terminalGame(scnr);
 		}
 		return true;
 	}
