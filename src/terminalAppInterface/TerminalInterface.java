@@ -61,6 +61,12 @@ public class TerminalInterface {
 	}
 	
 	/**
+	 * Main function for the Terminal Interface:
+	 * Will loop until user selects quit option (runAgain):
+	 * {
+	 * Print options,
+	 * Call option (process string) -> runAgain
+	 * }
 	 * @param args
 	 */
 	public static void main(String[] args) {
