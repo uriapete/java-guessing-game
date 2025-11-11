@@ -33,7 +33,14 @@ public class TerminalInterface {
 		}
 	}
 
-	private static boolean callMenuOption(){
+	private static boolean callMenuOption(int optionIdx){
+		switch (optionIdx) {
+			case 1:
+				
+				break;
+			default:
+				throw new AssertionError();
+		}
 		return false;
 	}
 	
