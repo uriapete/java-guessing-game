@@ -11,7 +11,7 @@ public class TerminalInterface {
 	 * String options for the terminal menu.
 	 */
 	private static String[] menuOptions = {
-		"I pick a number",
+		"I (Computer) pick a number",
 		"You pick a number"
 	};
 
