@@ -7,7 +7,7 @@ package terminalAppInterface;
  * 
  */
 public class TerminalInterface {
-	/*
+	/**
 	 * String options for the terminal menu.
 	 */
 	private static String[] menuOptions = {
@@ -15,7 +15,7 @@ public class TerminalInterface {
 		"You pick a number"
 	};
 
-	/*
+	/**
 	 * Prints the menu options for the terminal app.
 	 */
 	private static void printMenuOptions(){
