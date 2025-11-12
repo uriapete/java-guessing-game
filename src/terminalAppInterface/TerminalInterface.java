@@ -1,5 +1,9 @@
 /**
- * 
+ * Program Name: Java Console Guessing Game
+ * Program Developers: Peter Uriarte & Luis Martinez
+ * Program Date: 2025 November 11
+ * Program Version: v1.0.0.0 (using epoch semver — marketing . change in input/arguments . new feature . PATCH)
+ * v1.0.0.0 — release
  */
 package terminalAppInterface;
 
